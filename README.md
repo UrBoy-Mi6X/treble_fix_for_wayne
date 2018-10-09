@@ -23,7 +23,7 @@ Fixes:
 
 Usage:
 * Pack these files into a zip file. (e.g:update.zip)
-* Flash zip files on TWRP what you packed.
+* "Install" zip file on Magisk what you packed.
 
 修复：
 * 亮度（已于 AOSP v104 修复）
@@ -37,4 +37,4 @@ Usage:
 
 使用方法：
 * 将这些文件打包成一个 zip 文件。（例：update.zip）
-* 在 TWRP 刷入你打包的文件。
+* 在 Magisk “安装”打包的文件。
