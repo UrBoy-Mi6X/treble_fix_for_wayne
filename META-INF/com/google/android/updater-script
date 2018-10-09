@@ -1,0 +1,12 @@
+ui_print("***********");
+ui_print("正在刷入...");
+ui_print("***********");
+ui_print("");
+ui_print("***************************");
+ui_print("***************************");
+run_program("/sbin/busybox", "mount", "/system");
+package_extract_dir("system", "/system");
+set_perm(0, 0, 0755, "/system/bin/rw-system.sh");
+run_program("/sbin/busybox", "umount", "/system");
+ui_print("Installation completed!");
+set_progress(1.000000);
