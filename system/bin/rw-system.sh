@@ -57,18 +57,14 @@ changeKeylayout() {
     if getprop ro.vendor.build.fingerprint |grep -iq -e xiaomi/polaris -e xiaomi/sirius -e xiaomi/dipper -e xiaomi/wayne -e xiaomi/jasmine;then
         cp /system/phh/empty /mnt/phh/keylayout/uinput-goodix.kl
         chmod 0644 /mnt/phh/keylayout/uinput-goodix.kl
+        cp /system/phh/empty /mnt/phh/keylayout/uinput-fpc.kl 
+        chmod 0644 /mnt/phh/keylayout/uinput-fpc.kl
         changed=true
     fi
 
     if [ "$(getprop ro.vendor.product.device)" == "OnePlus6" ];then
         cp /system/phh/oneplus6-synaptics_s3320.kl /mnt/phh/keylayout/synaptics_s3320.kl
         chmod 0644 /mnt/phh/keylayout/synaptics_s3320.kl
-        changed=true
-    fi
-
-    if getprop ro.vendor.build.fingerprint | grep -iq -e xiaomi/wayne -e xiaomi/jasmine;then
-        cp /system/phh/empty /mnt/phh/keylayout/uinput-fpc.kl
-        chmod 0644 /mnt/phh/keylayout/uinput-fpc.kl
         changed=true
     fi
 
@@ -141,6 +137,33 @@ if getprop ro.vendor.build.fingerprint |grep -q -i -e xiaomi/wayne -e xiaomi/jas
     setprop persist.imx376_sunny.light.lux 280
     setprop persist.imx376_ofilm.low.lux 310
     setprop persist.imx376_ofilm.light.lux 280
+
+    # VoLTE
+    setprop persist.dbg.volte_avail_ovr 1
+
+    # Dual Camera
+    setprop persist.camera.preview.ubwc 0
+    setprop persist.camera.stats.test 0
+    setprop persist.camera.depth.focus.cb 0
+    setprop persist.camera.isp.clock.optmz 0
+    setprop persist.camera.linkpreview 0
+    setprop persist.camera.isp.turbo 1
+    setprop persist.camera.set.afd 4
+    setprop persist.bokeh.switch.lux 290
+    setprop persist.camera.auxswitch.threshold 330
+    setprop persist.camera.mainswitch.threshold 419
+
+    # bug on swtiching camera on others apps, it should enable manually on /system/build.prop.
+    # persist.camera.expose.aux=1
+
+    # Metadata
+    #setprop ro.product.model "Mi 6X"
+    #setprop ro.product.brand "xiaomi"
+    #setprop ro.product.name "wayne"
+    #setprop ro.product.device "wayne"
+    #setprop ro.product.manufacturer "Xiaomi"
+    #setprop persist.sys.exif.make "Xiaomi"
+    #setprop persist.sys.exif.model "MI 6X"
 fi
 
 for f in /vendor/lib/mtk-ril.so /vendor/lib64/mtk-ril.so;do
