@@ -1,0 +1,142 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 5MVL6i12ltjYEqEtaUW9VBlxhOc=
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest-Manifest: pVUJ9D5th6d2sD8aeNp5zhiBUcs=
+
+Name: system/framework/android-support-v13.jar
+SHA1-Digest-Manifest: 66ken33TIi5iGZUGyiVye7foFEg=
+
+Name: system/vendor/etc/camera/male_icon.png
+SHA1-Digest-Manifest: cTJ+P9RLtRQbTzeivwLNo3nTPpg=
+
+Name: system/etc/crown_156_128.bin
+SHA1-Digest-Manifest: b2G+KW8huyFDTjHjeW9C28t9XF8=
+
+Name: system/vendor/etc/camera/score_icon.png
+SHA1-Digest-Manifest: x3he1Tu32yywm/ZObtmGbW40bIc=
+
+Name: system/etc/face_ravishing_238_224
+SHA1-Digest-Manifest: K7/8C6qS4a/clK8cYNhXVc5DafI=
+
+Name: .gitattributes
+SHA1-Digest-Manifest: VJvL32Kgn3r0mLHw8YEc77HAwV0=
+
+Name: system/etc/permissions/android.hardware.camera.full.xml
+SHA1-Digest-Manifest: XtYq2iRqNM2ECmi4vbhse9P+Dbs=
+
+Name: system/priv-app/MiA2Camera/MiA2Camera.apk
+SHA1-Digest-Manifest: lGhfzsSZ9cQPdA7ezA0/bBPCn7g=
+
+Name: ISSUE_TEMPLATE.md
+SHA1-Digest-Manifest: +M0YVG4uY/lrbw9KpGYQh+KWwyk=
+
+Name: system/etc/MIUI_Time.ttf
+SHA1-Digest-Manifest: UJhoAR82s+47yslprYciZlXbu0g=
+
+Name: system/lib64/libmorpho_memory_allocator.so
+SHA1-Digest-Manifest: 1ONSVIy1uVModu3V17sV6vjl1Mk=
+
+Name: system/etc/watermark_font_2300_3199.dat
+SHA1-Digest-Manifest: Qg8dz6mbJJt5JC6Agmw1cuR1mys=
+
+Name: system/etc/permissions/android.hardware.camera.raw.xml
+SHA1-Digest-Manifest: IGoCE9NJQGJFgOiE5ZqjJRbHkw0=
+
+Name: system/framework/volley.jar
+SHA1-Digest-Manifest: e1XE80MUnUhWM2du9tdqHIuYCdc=
+
+Name: common/service.sh
+SHA1-Digest-Manifest: TOn/zXTfuf86lkAJLKXrKctujsY=
+
+Name: config.sh
+SHA1-Digest-Manifest: e3xM8rKtQbL3qWeHyTp0c4KiY3M=
+
+Name: system/vendor/etc/MIUI_Time.ttf
+SHA1-Digest-Manifest: 2KlNkerlEjl9nrJVItdSj8OaGWA=
+
+Name: CODE_OF_CONDUCT.md
+SHA1-Digest-Manifest: HzbNW3yrrRen1sGNjY90u9p01zE=
+
+Name: system/vendor/etc/camera/female_bg.png
+SHA1-Digest-Manifest: TLvgtVxioRgM+074uqbCmZ5ud00=
+
+Name: system/framework/miui-stat.jar
+SHA1-Digest-Manifest: w7xJKz0WOVab1VulFbDwkyw0yvE=
+
+Name: system/vendor/etc/Miui-Light.ttf
+SHA1-Digest-Manifest: hY9lPwUOi2QM3FrbHdKNbgnKUAA=
+
+Name: common/post-fs-data.sh
+SHA1-Digest-Manifest: SyX3X/PeDY9ntN8RXeBKc888YZg=
+
+Name: system/vendor/etc/camera/male_bg.png
+SHA1-Digest-Manifest: GpWyAeC4o5wDuyDhAaeYjVZ4I74=
+
+Name: system/etc/age_gender_bg
+SHA1-Digest-Manifest: Ch6WS24CLcC0gyHUyKnd7UtfZ3Q=
+
+Name: system/etc/sdm_ys_32p_120_21_5_perturb50.bin
+SHA1-Digest-Manifest: 2pTC8Xj/rJ335ImFmykdisqZVv8=
+
+Name: LICENSE
+SHA1-Digest-Manifest: ne7uf7k+d3h3EPs8mJN8/gzAFaA=
+
+Name: system/etc/face_goodly_208_180
+SHA1-Digest-Manifest: RCYaI05MeMQPB7KIrjDjv+kgSwI=
+
+Name: system/etc/face_splendid_274_200
+SHA1-Digest-Manifest: pybZP8LLalZlFfquPcFMym1ohNE=
+
+Name: CONTRIBUTING.md
+SHA1-Digest-Manifest: ygelzUKo/yDCF4H6+h0yyVDU0hY=
+
+Name: system/etc/permissions/privapp-permissions-miuicamera.xml
+SHA1-Digest-Manifest: BnzYykMy76KN2wiUA4drVOKbRps=
+
+Name: system/framework/zxing.jar
+SHA1-Digest-Manifest: xV+zpMIutdM7Qfp6SyjGtW2QmRA=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest-Manifest: EGXT4HXGBJlOomYxiGXzoEMbMrY=
+
+Name: system/framework/android-support-v7-recyclerview.jar
+SHA1-Digest-Manifest: 4mWeKPDVuxxBngad2YKEn7Gb8L4=
+
+Name: common/system.prop
+SHA1-Digest-Manifest: qgMT3Cy1OeVDdm5em5+7eHiDVjQ=
+
+Name: system/lib64/libmorpho_panorama_gp.so
+SHA1-Digest-Manifest: 3EHKQH5uOmqSWnaCa8IXYeJgHL4=
+
+Name: system/etc/people_gender.dat
+SHA1-Digest-Manifest: BYPAlMvmNkkGwXYEn+OtBMg0eCI=
+
+Name: system/vendor/etc/camera/score_bg.png
+SHA1-Digest-Manifest: InYELtWZTzZmKYYGbsdhkidQKhM=
+
+Name: system/etc/sysconfig/miuicamera-hiddenapi-package-whitelist.xml
+SHA1-Digest-Manifest: 1TdmjcEtnqU+J4znXsr6lB/A11I=
+
+Name: README.md
+SHA1-Digest-Manifest: 7zeW60DhlKrlQkQYzY8SB1/s2IM=
+
+Name: system/etc/lf_facerank_model.bin
+SHA1-Digest-Manifest: DWgj+6MmELdS4TqLcO5SQZAv9iM=
+
+Name: system/lib64/libmorpho_panorama.so
+SHA1-Digest-Manifest: 7VUr783gJCZWj1BH98ApKsmDkWg=
+
+Name: module.prop
+SHA1-Digest-Manifest: OoqXCUuDDDeaQs0dhb5DFtwoJlw=
+
+Name: system/framework/cloud-common.jar
+SHA1-Digest-Manifest: StETWUpluLsi8C8R7WndYFZz7ew=
+
+Name: system/etc/dualcamera.png
+SHA1-Digest-Manifest: gzF2ylqj1ublcgPceCg6//o66d8=
+
+Name: system/vendor/etc/camera/female_icon.png
+SHA1-Digest-Manifest: nI9bhmJu3Edj+0Hct+XNYLZICx8=
+
