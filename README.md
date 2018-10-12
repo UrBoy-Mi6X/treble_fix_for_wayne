@@ -12,8 +12,8 @@ And then, please visit wiki of this repository. / 然后阅读此 repository 的
 Special thanks / 特别感谢: [phhusson](https://github.com/phhusson), [TadiT7](https://github.com/tadit7), [TingyiChen](https://github.com/tingyichen)
 
 Fixes:
-* Brightness (already patched since AOSP 9.0 v104)
-* Flashlight of front camera (already patched since AOSP 9.0 v106)
+* Brightness
+* Flashlight of front camera
 * Fingerprint key
 * Metadata
 * VoLTE (with app `org.codeaurora.ims`)
@@ -26,8 +26,8 @@ Usage:
 * "Install" zip file on Magisk what you packed.
 
 修复：
-* 亮度（已于 AOSP v104 修复）
-* 前置摄像头闪光灯（已于 AOSP v106 修复）
+* 亮度
+* 前置摄像头闪光灯
 * 指纹按键
 * 手机信息
 * VoLTE（需要安装 `org.codeaurora.ims`）
