@@ -16,12 +16,11 @@ Fixes:
 * Flashlight of front camera
 * Fingerprint key
 * Metadata
-* ~~VoLTE~~ (with app `org.codeaurora.ims`, cause http 400)
-* Dual Camera (with Magisk module `Xiaomi Mi A2 Camera`, have some bugs)
 * Wired Control (should futher fixing)
 * Goodix Fingerpring (should futher fixing)
-* Auto brightness (testing)
-* Battery usage data (testing)
+* Auto brightness
+* Battery usage data
+* Bluetooth Audio / Mic for calling (should futher fixing)
 
 Usage:
 * Pack these files into a zip file. (e.g:update.zip)
@@ -36,8 +35,9 @@ Usage:
 * 双摄像头（需要 Magisk 模块 `Xiaomi Mi A2 Camera`，有些 bug）
 * 线控（目前无效）
 * Goodix 指纹（目前无效）
-* 自动亮度（测试中）
-* 电池使用数据（测试中）
+* 自动亮度
+* 电池使用数据
+* 蓝牙语音 / 麦克风（目前无效）
 
 使用方法：
 * 将这些文件打包成一个 zip 文件。（例：update.zip）
