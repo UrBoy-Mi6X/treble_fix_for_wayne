@@ -12,32 +12,20 @@ And then, please visit wiki of this repository. / 然后阅读此 repository 的
 Special thanks / 特别感谢: [phhusson](https://github.com/phhusson), [TadiT7](https://github.com/tadit7), [TingyiChen](https://github.com/tingyichen)
 
 Fixes:
-* ~~Brightness~~ (already patched since AOSP 9.0 v104)
-* ~~Flashlight of front camera~~ (already patched since AOSP 9.0 v106)
-* Fingerprint key
 * Metadata
-* ~~VoLTE~~ (with app `org.codeaurora.ims`, cause http 400)
-* Dual Camera (with Magisk module `Xiaomi Mi A2 Camera`, have some bugs, append `persist.camera.expose.aux=1` to `/system/build.prop` to enable it.)
 * Wired Control (should futher fixing)
 * Goodix Fingerpring (should futher fixing)
-* Auto brightness (testing)
-* Battery usage data (testing)
+* Bluetooth Audio / Mic for calling (should futher fixing)
 
 Usage:
 * Pack these files into a zip file. (e.g:update.zip)
 * "Install" zip file on Magisk what you packed.
 
 修复：
-* ~~亮度~~（已于 AOSP v104 修复）
-* ~~前置摄像头闪光灯~~（已于 AOSP v106 修复）
-* 指纹按键
 * 手机信息
-* ~~VoLTE~~（需要安装 `org.codeaurora.ims`，会导致 http 400）
-* 双摄像头（需要 Magisk 模块 `Xiaomi Mi A2 Camera`，有些 bug，手动往 `/system/build.prop` 添加 `persist.camera.expose.aux=1` 开启）
 * 线控（目前无效）
 * Goodix 指纹（目前无效）
-* 自动亮度（测试中）
-* 电池使用数据（测试中）
+* 蓝牙语音 / 麦克风（目前无效）
 
 使用方法：
 * 将这些文件打包成一个 zip 文件。（例：update.zip）
